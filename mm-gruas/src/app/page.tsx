@@ -3,6 +3,7 @@
 import ContenidoPrincipal from "./components/contenidoPrincipal/contenidoPrincipal"
 import Nosotros from "./components/nosotros/nosotros"
 import Servicios from "./components/servicios/servicios"
+import Contacto from "./components/contacto/contacto"
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <Servicios/>
 
         {/* Contacto */}
-        <section id="contacto"></section>
+        <Contacto/>
       </main>
     </div>
   );

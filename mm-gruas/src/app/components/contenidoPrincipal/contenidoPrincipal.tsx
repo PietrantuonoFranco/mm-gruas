@@ -24,8 +24,8 @@ export default function ContenidoPrincipal() {
             En MM Grúas brindamos servicios de grúas a todo el país con sede en Las Flores. Trasladamos motos, autos, camionetas y utilitarios.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 w-full mt-6 gap-y-6 justify-items-center lg:justify-items-start">
-            <ContactButton type="Llamar"/>
-            <ContactButton type="WhatsApp"/>
+            <ContactButton type="Llamar" justify="end"/>
+            <ContactButton type="WhatsApp" justify=""/>
           </div>
         </div>
         </div>

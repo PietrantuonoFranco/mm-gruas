@@ -5,10 +5,11 @@ import { Phone } from "lucide-react"
 import WhatsApp from "../whatsAppIcon"
 
 type Parameters = {
-  type: string
+  type: string,
+  justify: string
 }
 
-const ContactButton: React.FC<Parameters> = ({ type }) => {
+const ContactButton: React.FC<Parameters> = ({ type, justify }) => {
   const router = useRouter();
       
   const handleClick = ( url:string ) => {
@@ -19,10 +20,14 @@ const ContactButton: React.FC<Parameters> = ({ type }) => {
     <>
       <button
         onClick={() => handleClick('tel:+5492244462235')}
-        className={`flex gap-x-2 p-3 w-[70%] lg:w-[45%] rounded-3xl justify-center items-center shadow-md ${
+        className={`flex gap-x-2 p-3 w-[70%] lg:w-[45%] rounded-3xl justify-center items-center shadow-md hover:shadow-lg ${
           type === "Llamar" 
-            ? "lg:justify-self-end bg-[#F4AF00] hover:shadow-lg hover:bg-[#C69104]" 
-            : "bg-green-500 hover:shadow-lg hover:bg-green-600"
+            ? "bg-[#F4AF00] hover:bg-[#C69104]" 
+            : "bg-green-500 hover:bg-green-600"
+        } ${
+          justify !== "" 
+            ? "lg:justify-self-" + justify
+            : ""
         }`}
       >
         <div className="flex justify-center items-center gap-2">

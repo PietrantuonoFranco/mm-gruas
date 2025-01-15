@@ -85,8 +85,10 @@ export default function Footer() {
             </ul>
         </div>
       </div>
+
       <div className="mt-6 w-full text-center text-white flex justify-center items-center gap-x-4">
         <p className="text-gray-300 my-2">Copyright © 2025 MM Grúas | Designed by Pietrantuono Franco</p>
+        
         <Link
           href="https://www.linkedin.com/in/franco-pietrantuono-a43a8a345/"
           className="inline text-gray-300"
