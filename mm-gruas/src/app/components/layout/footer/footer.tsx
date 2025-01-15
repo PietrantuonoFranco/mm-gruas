@@ -2,9 +2,9 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from "../../../../public/logo-blanco.png"
+import Logo from "../../../../../public/logo-blanco.png"
 import { Phone, MapPin, Linkedin, Github, Mail } from 'lucide-react'
-import WhatsApp from "../whatsAppIcon"
+import WhatsApp from "../../whatsAppIcon"
 
 export default function Footer() {
   

@@ -6,7 +6,7 @@ import { useState } from "react"
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, X} from 'lucide-react'
 import Link from "next/link"
-import Logo from "../../../../public/logo.png"
+import Logo from "../../../../../public/logo.png"
 
 
 export default function Header() {

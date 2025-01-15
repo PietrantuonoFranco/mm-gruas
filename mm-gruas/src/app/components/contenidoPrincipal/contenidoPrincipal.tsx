@@ -3,8 +3,8 @@
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Phone } from "lucide-react"
-import WhatsApp from "./whatsAppIcon"
-import Background from "../../../public/background.jpeg"
+import WhatsApp from "../whatsAppIcon"
+import Background from "../../../../public/background.jpeg"
 
 export default function ContenidoPrincipal() {
   const router = useRouter();

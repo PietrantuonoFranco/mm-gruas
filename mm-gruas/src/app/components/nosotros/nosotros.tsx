@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Grua from "../../../public/img-example.jpeg";
-import RazonElegirServicio from "./razonElegirServicio";
+import Grua from "../../../../public/img-example.jpeg";
+import RazonElegirServicio from "./components/razonElegirServicio";
 
 export default function Servicios() {
 
