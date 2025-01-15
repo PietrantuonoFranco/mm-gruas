@@ -111,7 +111,7 @@ export default function Footer() {
           className="inline text-gray-300"
           target="_blank"
         >
-          <WhatsApp circle={18} phone={7} translateX={50} translateY={78}/>
+          <WhatsApp circle={18} phone={8}/>
         </Link>
       </div>
     </footer>
