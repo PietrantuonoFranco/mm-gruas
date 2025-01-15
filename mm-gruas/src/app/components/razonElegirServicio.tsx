@@ -8,7 +8,7 @@ type Parameters = {
 const RazonElegirServicio: React.FC<Parameters> = ({ title, text }) => {
 
   return (
-    <div className="flex flex-col items-center space-y-3 rounded-xl py-10 px-10 sm:px-16 bg-gray-100 shadow-md">
+    <div className="flex flex-col items-center space-y-3 rounded-xl p-10 bg-gray-100 shadow-md">
       <div className="p-3 rounded-[100%] mb-1 bg-[#FFCA3A] shadow-md">
         {title === "24 Horas" && (
           <Timer size={32} strokeWidth={2.5}/>

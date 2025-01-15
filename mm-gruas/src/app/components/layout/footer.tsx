@@ -7,6 +7,7 @@ import { Phone, MapPin, Linkedin, Github, Mail } from 'lucide-react'
 import WhatsApp from "../whatsAppIcon"
 
 export default function Footer() {
+  
   return (
     <footer className="flex shadow-lg flex-col justify-center items-center bg-[#222222] shadow-black p-2.5 sm:px-12 text-[#edf2efbb]">
       <div className="mt-5 w-[85%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -74,7 +75,8 @@ export default function Footer() {
               <li>
               <h4 className="text-lg mb-1 flex justify-center items-center gap-x-1"><MapPin className="inline" size={18}/>Ubicación</h4>
                 <Link
-                  href="/"
+                  href="https://www.google.com/maps?q=-36.011277, -59.111919"
+                  target="_blank"
                   className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
                 >
                   Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires
