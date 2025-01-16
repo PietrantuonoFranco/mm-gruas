@@ -1,6 +1,7 @@
 'use client'
 
-import WhatsAppIcon from "../../whatsAppIcon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
 export default function WhatsApp () {
   const handleClick = () => {
@@ -15,7 +16,7 @@ export default function WhatsApp () {
       onClick={handleClick}
       className="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 w-16 h-16 flex items-center justify-center rounded-full shadow-lg cursor-pointer transition-transform transform hover:scale-110"
     >
-      <WhatsAppIcon circle={32} phone={16}/>
+      <FontAwesomeIcon icon={faWhatsapp} className="text-4xl"/>
     </div>
   );
 }

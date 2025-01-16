@@ -3,8 +3,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from "../../../../../public/logo-blanco.png"
-import { Phone, MapPin, Linkedin, Github, Mail } from 'lucide-react'
-import WhatsApp from "../../whatsAppIcon"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { faPhone, faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons"
+
 
 export default function Footer() {
   
@@ -58,13 +60,13 @@ export default function Footer() {
         </div>
         <div className="flex flex-col justify-start text-center">
           <h3 className="text-xl mb-4">Servicios</h3>
-          <p className="text-gray-500 py-1 font-medium">Grúas y remolques para autos, motos, camionetas y utilitarios.</p>
+          <p className="text-gray-500 py-1 font-medium">Grúas y remolques para autos, motos, camionetas, utilitarios y maquinaria agrícola.</p>
         </div>
         <div className="flex flex-col justify-start text-center">
           <h3 className="text-xl mb-4">Contacto</h3>
           <ul className="list-none p-0 space-y-2">
               <li>
-              <h4 className="text-lg mb-1 flex justify-center items-center gap-x-1"><Phone className="inline" size={18}/>Teléfono</h4>
+              <h4 className="text-lg mb-1 flex justify-center items-center gap-x-1"><FontAwesomeIcon icon={faPhone} className="inline text-md"/>Teléfono</h4>
                 <Link
                   href="tel:+5492244462235"
                   className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
@@ -73,7 +75,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-              <h4 className="text-lg mb-1 flex justify-center items-center gap-x-1"><MapPin className="inline" size={18}/>Ubicación</h4>
+              <h4 className="text-lg mb-1 flex justify-center items-center gap-x-1"><FontAwesomeIcon icon={faLocationDot} className="inline"/>Ubicación</h4>
                 <Link
                   href="https://www.google.com/maps?q=-36.011277, -59.111919"
                   target="_blank"
@@ -88,34 +90,34 @@ export default function Footer() {
 
       <div className="mt-6 w-full text-center text-white flex justify-center items-center gap-x-4">
         <p className="text-gray-300 my-2">Copyright © 2025 MM Grúas | Designed by Pietrantuono Franco</p>
-        
+
         <Link
           href="https://www.linkedin.com/in/franco-pietrantuono-a43a8a345/"
           className="inline text-gray-300"
           target="_blank"
         >
-          <Linkedin size={18}/>
+          <FontAwesomeIcon icon={faLinkedin}/>
         </Link>
         <Link
           href="https://github.com/PietrantuonoFranco"
           className="inline text-gray-300"
           target="_blank"
         >
-          <Github size={18}/>
+          <FontAwesomeIcon icon={faGithub}/>
         </Link>
         <Link
           href="mailto:francopietrantuono999@gmail.com"
           className="inline text-gray-300"
           target="_blank"
         >
-          <Mail size={18}/>
+          <FontAwesomeIcon icon={faEnvelope}/>
         </Link>
         <Link
           href="tel:+5492241470878"
           className="inline text-gray-300"
           target="_blank"
         >
-          <WhatsApp circle={18} phone={8}/>
+          <FontAwesomeIcon icon={faWhatsapp}/>
         </Link>
       </div>
     </footer>

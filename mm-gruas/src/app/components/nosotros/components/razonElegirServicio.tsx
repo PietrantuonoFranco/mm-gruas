@@ -1,4 +1,5 @@
-import { Timer, DollarSign, Route  } from "lucide-react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faStopwatch, faDollarSign, faRoute } from "@fortawesome/free-solid-svg-icons"
 
 type Parameters = {
   title: string,
@@ -9,17 +10,17 @@ const RazonElegirServicio: React.FC<Parameters> = ({ title, text }) => {
 
   return (
     <div className="flex flex-col items-center space-y-3 rounded-xl p-10 bg-gray-100 shadow-md">
-      <div className="p-3 rounded-[100%] mb-1 bg-[#FFCA3A] shadow-md">
+      <div className="w-14 h-14 flex items-center justify-center rounded-full mb-1 bg-[#FFCA3A] shadow-md">
         {title === "24 Horas" && (
-          <Timer size={32} strokeWidth={2.5}/>
+          <FontAwesomeIcon icon={faStopwatch} className="text-2xl"/>
         )}
 
-        {title === "Precios Asequibles" && (
-          <DollarSign size={32} strokeWidth={2.5}/>
+        {title === "Precios Accesibles" && (
+          <FontAwesomeIcon icon={faDollarSign} className="text-2xl"/>
         )}
 
         {title === "Amplia Cobertura" && (
-          <Route size={32} strokeWidth={2.5}/>
+          <FontAwesomeIcon icon={faRoute} className="text-2xl"/>
         )}
       </div>
 

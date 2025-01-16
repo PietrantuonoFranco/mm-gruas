@@ -4,9 +4,10 @@ import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { AnimatePresence, motion } from 'framer-motion'
-import { Menu, X} from 'lucide-react'
 import Link from "next/link"
 import Logo from "../../../../../public/logo.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons"
 
 
 export default function Header() {
@@ -70,9 +71,9 @@ export default function Header() {
             <div className="md:hidden">
               <button
                 onClick={toggleNavbar}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-[#F42F00] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#F4AF00]"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#F4AF00]"
               >
-                {isOpen ? <X size={24} /> : <Menu size={24} />}
+                {isOpen ? <FontAwesomeIcon icon={faX} className="text-lg"/> : <FontAwesomeIcon icon={faBars} className="text-lg"/>}
               </button>
             </div>
           </div>

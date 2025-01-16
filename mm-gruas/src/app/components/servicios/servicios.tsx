@@ -6,17 +6,19 @@ export default function Servicios() {
       <h4 className="font-bold text-[#FFCA3A] text-shadow-xl">Nuestros servicios</h4>
       <h2 className="font-bold text-4xl mb-12">Conocé nuestros servicios</h2>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-8">
-        <Servicio title="Autos" service="Grúas y remolques" imgUrl="../../../../../public/grua-auto.jpeg" imgDescription=""/>
+      <div className="grid lg:grid-cols-5 grid-cols-1 gap-y-8 gap-x-6 mb-8 items-start">
+        <Servicio title="Autos" service="Grúas y remolques"/>
 
-        <Servicio title="Camionetas" service="Grúas y remolques" imgUrl="../../../../../public/grua-camioneta.jpeg" imgDescription=""/>
+        <Servicio title="Camionetas" service="Grúas y remolques"/>
 
-        <Servicio title="Motos" service="Grúas" imgUrl="" imgDescription=""/>
+        <Servicio title="Motos" service="Grúas"/>
 
-        <Servicio title="Utilitarios" service="Grúas y remolques" imgUrl="../../../../../public/grua-utilitario.jpeg" imgDescription=""/>
+        <Servicio title="Utilitarios" service="Grúas y remolques"/>
+
+        <Servicio title="Máquinas Agrícolas" service="Grúas y remolques"/>
       </div>
 
-      <p className="text-gray-500">Todos nuestros servicios llegan a todo el país, tanto en casos de imrevistos como para los traslados programados a las 24hs del dia.</p>
+      <p className="text-gray-500 text-lg">Todos nuestros servicios llegan a todo el país, tanto en casos de imprevistos como para los traslados programados a las 24hs del dia.</p>
     </section>
   );
 }

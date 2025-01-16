@@ -30,11 +30,11 @@ export default function Servicios() {
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-8 text-center">
           <RazonElegirServicio
             title="24 Horas"
-            text="Estamos disponibles las 24 horas del día de la semana, lo que significa que atendemos tus emergencias en todo momento, incluso los días festivos, los 356 días del año."
+            text="Estamos disponibles las 24 horas del día de la semana, lo que significa que atendemos tus emergencias en todo momento, incluso los días festivos, los 365 días del año."
           />
           
           <RazonElegirServicio
-            title="Precios Asequibles"
+            title="Precios Accesibles"
             text="Contamos con precios asequibles que se ajustan a tu presupuesto, garantizando un servicio de calidad, seguro y eficiente de todo momento."
           />
           

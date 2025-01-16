@@ -21,10 +21,10 @@ export default function ContenidoPrincipal() {
         <div className="relative z-20 w-4/5 md:w-1/2 flex flex-col items-center justify-center text-center">
           <h1 className="text-4xl font-bold mb-6">GRÚAS LAS 24HS</h1>
           <p className="text-md">
-            En MM Grúas brindamos servicios de grúas a todo el país con sede en Las Flores. Trasladamos motos, autos, camionetas y utilitarios.
+            En MM Grúas brindamos servicios de grúas a todo el país con sede en Las Flores. Trasladamos motos, autos, camionetas, utilitarios y maquinaria agrícola.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 w-full mt-6 gap-y-6 justify-items-center lg:justify-items-start">
-            <ContactButton type="Llamar" justify="end"/>
+            <ContactButton type="Llamar" justify="lg:justify-self-end"/>
             <ContactButton type="WhatsApp" justify=""/>
           </div>
         </div>

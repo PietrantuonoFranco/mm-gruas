@@ -1,8 +1,10 @@
 'use client'
 
 import { useRouter } from "next/navigation"
-import { Phone } from "lucide-react"
-import WhatsApp from "../whatsAppIcon"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { faPhone } from "@fortawesome/free-solid-svg-icons"
+
 
 type Parameters = {
   type: string,
@@ -10,6 +12,7 @@ type Parameters = {
 }
 
 const ContactButton: React.FC<Parameters> = ({ type, justify }) => {
+
   const router = useRouter();
       
   const handleClickLlamar = ( url:string ) => {
@@ -23,6 +26,8 @@ const ContactButton: React.FC<Parameters> = ({ type, justify }) => {
     window.open(url, "_blank");
   };
 
+  console.log (justify);
+
   return (
     <>
       <button
@@ -31,23 +36,19 @@ const ContactButton: React.FC<Parameters> = ({ type, justify }) => {
           type === "Llamar" 
             ? "bg-[#F4AF00] hover:bg-[#C69104]" 
             : "bg-green-500 hover:bg-green-600"
-        } ${
-          justify !== "" 
-            ? "lg:justify-self-" + justify
-            : ""
-        } cursor-pointer transition-transform transform hover:scale-110`}
+        } ${ justify } cursor-pointer transition-transform transform hover:scale-110`}
       >
         <div className="flex justify-center items-center gap-2">
           {type === "Llamar" && (
             <>
-              <Phone size={20} />
+              <FontAwesomeIcon icon={faPhone}/>
               Llamar
             </>
           )}
 
           {type === "WhatsApp" && (
             <>
-              <WhatsApp circle={24} phone={11} />
+              <FontAwesomeIcon icon={faWhatsapp} className="text-xl"/>
               WhatsApp
             </>
           )}
