@@ -36,7 +36,7 @@ export default function Footer() {
             <ul className="list-none p-0 space-y-2">
               <li>
                 <a href="#nosotros"
-                  className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
+                  className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
                   onClick={(e) => handleSmoothScroll(e, 'nosotros')}
                 >
                   Nosotros
@@ -46,7 +46,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#servicios"
-                  className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
+                  className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
                   onClick={(e) => handleSmoothScroll(e, 'servicios')}
                 >
                   Servicios
@@ -56,7 +56,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#contacto"
-                  className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
+                  className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
                   onClick={(e) => handleSmoothScroll(e, 'contacto')}
                 >
                   Contacto
@@ -77,7 +77,7 @@ export default function Footer() {
               <h4 className="text-lg mb-1 flex justify-center items-center gap-x-1"><FontAwesomeIcon icon={faPhone} className="inline text-md"/>Teléfono</h4>
               <a
                 href="tel:+5492244462235"
-                className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
+                className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
               >
                 +54 9 2244 46-2235      
               </a>
@@ -87,7 +87,7 @@ export default function Footer() {
               <a
                 href="https://www.google.com/maps?q=-36.011277, -59.111919"
                 target="_blank"
-                className="text-gray-500 py-1 font-medium relative group hover:text-gray-700"
+                className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
               >
                 Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires
               </a>
@@ -96,30 +96,38 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mt-6 w-full text-center text-white flex justify-center items-center gap-x-4">
-        <p className="text-gray-300 my-2">Copyright © 2025 MM Grúas | Designed by Pietrantuono Franco</p>
-        
-        <a
-          href="https://www.linkedin.com/in/franco-pietrantuono-a43a8a345/"
-          className="inline text-gray-300"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faLinkedin}/>
-        </a>
-        <a
-          href="https://github.com/PietrantuonoFranco"
-          className="inline text-gray-300"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faGithub}/>
-        </a>
-        <a
-          href="mailto:francopietrantuono999@gmail.com"
-          className="inline text-gray-300"
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={faEnvelope}/>
-        </a>
+      <div className="mt-10 mb-4 w-full text-center text-white flex flex-col sm:flex-row justify-center items-center">
+        <p className="text-gray-300 my-2">Copyright © 2025 MM Grúas</p>
+         
+        <div className="block sm:hidden w-[90%] h-[2px] bg-gray-600 my-4 justify-center"></div>
+        <p className="text-gray-300 m-2 hidden sm:inline">|</p>
+
+        <p className="text-gray-300 my-2">Designed by Pietrantuono Franco</p>
+
+
+        <div className="px-4 space-x-4">
+          <a
+            href="https://www.linkedin.com/in/franco-pietrantuono-a43a8a345/"
+            className="inline text-gray-300 hover:text-gray-400"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faLinkedin}/>
+          </a>
+          <a
+            href="https://github.com/PietrantuonoFranco"
+            className="inline text-gray-300 hover:text-gray-400"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faGithub}/>
+          </a>
+          <a
+            href="mailto:francopietrantuono999@gmail.com"
+            className="inline text-gray-300 hover:text-gray-400"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faEnvelope}/>
+          </a>
+        </div>
       </div>
     </footer>
   );

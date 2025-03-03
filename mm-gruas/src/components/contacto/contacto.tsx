@@ -59,13 +59,13 @@ export default function Contacto() {
                   <Link
                     to="https://www.google.com/maps?q=-36.011277, -59.111919"
                     target="_blank"
-                    className="text-gray-500 text-center py-1 font-medium hover:text-gray-700 mb-2"
+                    className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md text-center py-1 font-medium mb-2"
                   >
                     Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires
                   </Link>
                 </Router>
               </li>
-
+          
               <li>
                 <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faClock} className="inline text-md"/>Horario de atención (en la sede)</h4>
                 <p className="text-gray-500 py-1">9:00 a 17:00hs</p>
@@ -77,7 +77,7 @@ export default function Contacto() {
                   <Router>
                     <Link
                       to="tel:+5492244462235"
-                      className="text-gray-500 py-1 font-medium hover:text-gray-700"
+                      className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md py-1 font-medium"
                     >
                       +54 9 2244 46-2235
                     </Link>

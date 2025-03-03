@@ -28,7 +28,7 @@ const ContactButton: React.FC<ContactButtonProps> = ({ type, justify }) => {
         className={`flex gap-x-2 p-3 w-[70%] lg:w-[45%] rounded-3xl justify-center items-center shadow-md hover:shadow-lg ${
           type === "Llamar" ? "bg-[#F4AF00]" : "bg-green-500" } ${ justify } cursor-pointer transition-transform transform hover:scale-110`}
       >
-        <div className="flex justify-center items-center gap-2 font-medium">
+        <div className="flex justify-center items-center gap-1 font-medium">
           {type === "Llamar" && (
             <>
               <FontAwesomeIcon icon={faPhone}/>
