@@ -59,6 +59,7 @@ export default function Contacto() {
                   <Link
                     to="https://www.google.com/maps?q=-36.011277, -59.111919"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md text-center py-1 font-medium mb-2"
                   >
                     Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires

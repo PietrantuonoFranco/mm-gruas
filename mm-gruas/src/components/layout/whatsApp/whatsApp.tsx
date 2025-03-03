@@ -8,7 +8,7 @@ export default function WhatsApp () {
     const phoneNumber = "5492244462235";
     const message = "¡Hola! Quiero hacer una consulta.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
+    window.open(url, "_blank", "noopener,noreferrer");
   };
 
   return (

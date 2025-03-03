@@ -87,6 +87,7 @@ export default function Footer() {
               <a
                 href="https://www.google.com/maps?q=-36.011277, -59.111919"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
               >
                 Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires
@@ -110,6 +111,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/franco-pietrantuono-a43a8a345/"
             className="inline text-gray-300 hover:text-gray-400"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin}/>
           </a>
@@ -117,6 +119,7 @@ export default function Footer() {
             href="https://github.com/PietrantuonoFranco"
             className="inline text-gray-300 hover:text-gray-400"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faGithub}/>
           </a>
@@ -124,6 +127,7 @@ export default function Footer() {
             href="mailto:francopietrantuono999@gmail.com"
             className="inline text-gray-300 hover:text-gray-400"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faEnvelope}/>
           </a>
