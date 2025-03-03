@@ -32,7 +32,7 @@ export default function ContenidoPrincipal() {
           <div className="absolute inset-0 bg-black/30 backdrop-blur-sm z-10"></div>
           {/* Contenido */}
           <div className="relative z-20 w-4/5 md:w-1/2 flex flex-col items-center justify-center text-center">
-            <h1 className="text-4xl font-bold mb-6">GRÚAS LAS 24HS</h1>
+            <h1 className="text-4xl font-bold mb-6">GRÚAS EN LAS FLORES LAS 24HS</h1>
             <p className="text-md">
               En MM Grúas brindamos servicios de grúas a todo el país con sede en Las Flores. Trasladamos motos, autos, camionetas, utilitarios y maquinaria agrícola.
             </p>
