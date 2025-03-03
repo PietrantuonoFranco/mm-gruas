@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MM Grúas
 
-## Getting Started
+## English
 
-First, run the development server:
+A corporate website for MM Grúas, a company specializing in vehicle transportation in Argentina.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This application aims to showcase the services provided by MM Grúas, a company specialized in transporting vehicles of various types. The website is designed for a Spanish-speaking audience since the company is located in Argentina.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Key Features
+- Detailed information about the services offered.
+- Responsive design for an optimal experience on mobile and desktop devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
 
-## Learn More
+Follow these steps to set up the project locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Franquinios/mm-gruas.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Deploy on Vercel
+## Español
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Una página corporativa para MM Grúas, una empresa dedicada al transporte de vehículos en Argentina.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Descripción
+
+Esta aplicación tiene como objetivo principal presentar los servicios ofrecidos por MM Grúas, una empresa especializada en el transporte de vehículos de diferentes características. El sitio web está diseñado para un público hispanohablante, ya que la empresa está ubicada en Argentina.
+
+#### Características principales
+- Información detallada sobre los servicios ofrecidos.
+- Diseño responsivo para una experiencia óptima en dispositivos móviles y de escritorio.
+
+### Instalación
+
+Sigue los siguientes pasos para instalar el proyecto localmente:
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Franquinios/mm-gruas.git
+
+### Licencia
+
+[MIT](https://choosealicense.com/licenses/mit/)
