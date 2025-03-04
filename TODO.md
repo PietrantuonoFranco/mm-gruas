@@ -6,4 +6,4 @@
 - [ ] Utilizar Google Analytics.
 - [ ] Pasar imagenes a .webp.
 - [ ] Uso de CDN.
-- [ ] .
+- [ ] Realizar error 404 page.

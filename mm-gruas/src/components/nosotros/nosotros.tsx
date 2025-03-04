@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from "framer-motion";
-import grua from "../../assets/img-example.jpeg";
+import grua from "../../assets/img-example.webp";
 import RazonElegirServicio from "./components/razonElegirServicio";
 
 export default function Servicios() {

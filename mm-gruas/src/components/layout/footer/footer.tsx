@@ -1,6 +1,6 @@
 'use client'
 
-import logo from "../../../assets/logo-white.png"
+import logo from "../../../assets/logo-white.webp"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faPhone, faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons"
