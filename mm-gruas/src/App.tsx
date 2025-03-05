@@ -4,6 +4,7 @@ import ContenidoPrincipal from "./components/contenidoPrincipal/contenidoPrincip
 import Nosotros from "./components/nosotros/nosotros";
 import Servicios from "./components/servicios/servicios";
 import Contacto from "./components/contacto/contacto";
+import Galeria from "./components/galeria/galeria";
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
 
           {/* Servicios */}
           <Servicios/>
+
+          {/* Galeria */}
+          <Galeria/>
 
           {/* Contacto */}
           <Contacto/>

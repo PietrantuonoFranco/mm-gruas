@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from "framer-motion";
-import grua from "../../assets/img-example.webp";
+import grua from "./assets/img-example.webp";
 import RazonElegirServicio from "./components/razonElegirServicio";
 
 export default function Servicios() {
@@ -16,13 +16,13 @@ export default function Servicios() {
     whileInView: {
       transition: {
         staggerChildren: 0.2,
-        delayChildren: 0.2
+        delayChildren: 0.1
       }
     }
   };
 
   return (
-    <section id="nosotros" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[100px]">
+    <section id="nosotros" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[85px]">
       {/* Contenedor principal sin stagger */}
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-8">
         {/* Imagen con animación fadeInUp */}

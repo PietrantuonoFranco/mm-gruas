@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from 'framer-motion';
-import logo from "../../../assets/logo.webp";
+import logo from "./assets/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 
@@ -59,6 +59,15 @@ export default function Header() {
                   onClick={(e) => handleSmoothScroll(e, 'servicios')}
                 >
                   Servicios
+                  <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-90"></span>
+                </a>
+
+                <a
+                  href="#galeria"
+                  className="px-1 py-1 font-large relative group hover:text-gray-700 drop-shadow-md"
+                  onClick={(e) => handleSmoothScroll(e, 'galeria')}
+                >
+                  Galería
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-90"></span>
                 </a>
 

@@ -15,7 +15,7 @@ export default function Contacto() {
   };
 
   return (
-    <section id="contacto" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[100px] text-black">
+    <section id="contacto" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[75px] text-black">
       <h4 className="font-bold text-[#FFCA3A] text-shadow-xl text-center mb-4">Contacto</h4>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-8">

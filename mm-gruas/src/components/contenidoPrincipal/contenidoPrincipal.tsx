@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from "framer-motion"
-import background from "../../assets/background.webp";
+import background from "./assets/background.webp";
 import ContactButton from "../contactButton/contactButton";
 
 export default function ContenidoPrincipal() {
