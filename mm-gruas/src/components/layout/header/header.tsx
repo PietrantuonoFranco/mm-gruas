@@ -125,6 +125,14 @@ export default function Header() {
                 </a>
 
                 <a
+                  href="#galeria"
+                  className="hover:text-gray-700 hover:font-bold block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                  onClick={() => handleClick('galeria')}
+                >
+                  Galería
+                </a>
+
+                <a
                   href="#contacto"
                   className="hover:text-gray-700 hover:font-bold block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
                   onClick={() => handleClick('contacto')}

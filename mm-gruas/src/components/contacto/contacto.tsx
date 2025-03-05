@@ -19,7 +19,7 @@ export default function Contacto() {
       <h4 className="font-bold text-[#FFCA3A] text-shadow-xl text-center mb-4">Contacto</h4>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-8">
-        <motion.div  
+      <motion.div  
           variants={fadeInUp}
           initial="initial"
           whileInView="whileInView"
@@ -68,7 +68,9 @@ export default function Contacto() {
               </li>
           
               <li>
-                <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faClock} className="inline text-md"/>Horario de atención (en la sede)</h4>
+                <h4 className="text-lg mb-1 flex items-center justify-center gap-x-2">
+                  <FontAwesomeIcon icon={faClock} className="inline text-md md:text-"/>Horario de atención (en la sede)
+                </h4>
                 <p className="text-gray-500 py-1">9:00 a 17:00hs</p>
               </li>
 

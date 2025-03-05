@@ -1,11 +1,19 @@
 'use client'
-import { useEffect, useRef } from 'react';
 
-const CloudinaryGallery = ({ galleryConfig }) => {
+import { useEffect, useRef } from 'react';
+import GalleryConfig from './interfaces/galleryConfigInterface';
+
+declare global {
+  interface Window {
+    cloudinary: any;
+  }
+}
+
+const CloudinaryGallery = ({ galleryConfig } : {galleryConfig: GalleryConfig}) => {
   const galleryRef = useRef(null);
   const cloudName = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
 
-  console.log(cloudName)
+  
   useEffect(() => {
     if (window && galleryRef.current) {
       window.cloudinary
