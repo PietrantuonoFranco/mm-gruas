@@ -55,16 +55,14 @@ export default function Contacto() {
             <ul className="list-none p-0 space-y-4 text-center md:text-left">
               <li>
                 <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faLocationDot} className="inline text-md"/>Ubicación</h4>
-                <Router>
-                  <Link
-                    to="https://www.google.com/maps?q=-36.011277, -59.111919"
+                  <a
+                    href="https://www.google.com/maps?q=-36.011277, -59.111919"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md text-center py-1 font-medium mb-2"
                   >
                     Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires
-                  </Link>
-                </Router>
+                  </a>
               </li>
           
               <li>
@@ -77,14 +75,12 @@ export default function Contacto() {
               <li>
                 <div>
                   <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faPhone} className="inline text-sm"/>Teléfono</h4>
-                  <Router>
-                    <Link
-                      to="tel:+5492244462235"
+                    <a
+                      href="tel:+5492244462235"
                       className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md py-1 font-medium"
                     >
                       +54 9 2244 46-2235
-                    </Link>
-                  </Router>
+                    </a>
                 </div>
 
                 <div className="grid grid-cols-1 w-full mt-6 gap-y-6 justify-items-center text-white">
