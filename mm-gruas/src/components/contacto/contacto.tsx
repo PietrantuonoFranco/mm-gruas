@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { BrowserRouter as Router, Link} from 'react-router-dom';
 import ContactButton from "../contactButton/contactButton"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone, faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons"
