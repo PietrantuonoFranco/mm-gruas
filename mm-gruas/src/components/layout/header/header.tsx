@@ -63,20 +63,20 @@ export default function Header() {
                 </a>
 
                 <a
-                  href="#galeria"
-                  className="px-1 py-1 font-large relative group hover:text-gray-700 drop-shadow-md"
-                  onClick={(e) => handleSmoothScroll(e, 'galeria')}
-                >
-                  Galería
-                  <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-90"></span>
-                </a>
-
-                <a
                   href="#contacto"
                   className="px-1 py-1 font-large relative group hover:text-gray-700 drop-shadow-md"
                   onClick={(e) => handleSmoothScroll(e, 'contacto')}
                 >
                   Contacto
+                  <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-90"></span>
+                </a>
+
+                <a
+                  href="#galeria"
+                  className="px-1 py-1 font-large relative group hover:text-gray-700 drop-shadow-md"
+                  onClick={(e) => handleSmoothScroll(e, 'galeria')}
+                >
+                  Galería
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-90"></span>
                 </a>
               </div>
@@ -125,19 +125,19 @@ export default function Header() {
                 </a>
 
                 <a
-                  href="#galeria"
-                  className="hover:text-gray-700 hover:font-bold block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
-                  onClick={() => handleClick('galeria')}
-                >
-                  Galería
-                </a>
-
-                <a
                   href="#contacto"
                   className="hover:text-gray-700 hover:font-bold block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
                   onClick={() => handleClick('contacto')}
                 >
                   Contacto
+                </a>
+
+                <a
+                  href="#galeria"
+                  className="hover:text-gray-700 hover:font-bold block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"
+                  onClick={() => handleClick('galeria')}
+                >
+                  Galería
                 </a>
               </div>
             </motion.div>

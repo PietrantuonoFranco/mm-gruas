@@ -21,11 +21,11 @@ function App() {
           {/* Servicios */}
           <Servicios/>
 
-          {/* Galeria */}
-          <Galeria/>
-
           {/* Contacto */}
           <Contacto/>
+
+          {/* Galeria */}
+          <Galeria/>
         </main>
       </div>
     </>

@@ -43,6 +43,7 @@ export default function Footer() {
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </a>
               </li>
+              
               <li>
                 <a
                   href="#servicios"
@@ -53,16 +54,7 @@ export default function Footer() {
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </a>
               </li>
-              <li>
-                <a
-                  href="#galeria"
-                  className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
-                  onClick={(e) => handleSmoothScroll(e, 'galeria')}
-                >
-                  Galería
-                  <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-100"></span>
-                </a>
-              </li>
+              
               <li>
                 <a
                   href="#contacto"
@@ -70,6 +62,17 @@ export default function Footer() {
                   onClick={(e) => handleSmoothScroll(e, 'contacto')}
                 >
                   Contacto
+                  <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-100"></span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#galeria"
+                  className="text-[#7267ED] py-1 font-medium relative group hover:text-[#5D50E8]"
+                  onClick={(e) => handleSmoothScroll(e, 'galeria')}
+                >
+                  Galería
                   <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gray-700 scale-x-0 transition-transform group-hover:scale-x-100"></span>
                 </a>
               </li>

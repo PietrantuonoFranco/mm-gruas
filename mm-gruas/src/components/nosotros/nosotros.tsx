@@ -48,7 +48,7 @@ export default function Servicios() {
           className="text-black space-y-2 md:text-left text-center"
         >
           <h4 className="font-bold text-[#FFCA3A] text-shadow-xl">Sobre nosotros</h4>
-          <h2 className="font-bold text-4xl mb-12">Grúas en Las Flores y todo el país: Con más de 35 años de experiencia en el rubro</h2>
+          <h2 className="font-bold text-4xl [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Grúas en Las Flores y todo el país: Con más de 35 años de experiencia en el rubro</h2>
           <p>En MM Grúas, somos especialistas en brindar soluciones confiables y eficientes para el transporte y remolque de vehículos. Con años de experiencia en el sector, nos hemos consolidado como un aliado clave para conductores y empresas que necesitan servicios de grúa rápidos, seguros y profesionales.</p>
           <p>Ya sea que necesite asistencia en carretera, traslado de un vehículo por mantenimiento o apoyo para operaciones logísticas, en MM Grúas estamos aquí para ayudar. Nuestro objetivo es brindarle tranquilidad y confianza, sabiendo que su vehículo está en las mejores manos.</p>
         </motion.div>
@@ -62,7 +62,7 @@ export default function Servicios() {
         viewport={{ once: true, amount: 0.1 }} // Solo se anima una vez y cuando el 20% del elemento es visible
         className="flex flex-col text-black"
       >
-        <h2 className="font-bold text-4xl text-center mt-16 mb-10">¿Por qué debería elegir nuestros servicios?</h2>
+        <h2 className="font-bold text-4xl text-center mt-16 mb-10 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">¿Por qué debería elegir nuestros servicios?</h2>
 
         {/* Contenedor de razones con animación stagger */}
         <motion.div

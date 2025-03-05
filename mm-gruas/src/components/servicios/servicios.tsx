@@ -17,8 +17,8 @@ export default function Servicios() {
   return (
     <section id="servicios" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[100px] text-center text-black">
       <h4 className="font-bold text-[#FFCA3A] text-shadow-xl">Nuestros servicios</h4>
-      <h2 className="font-bold text-4xl mb-12">Conocé nuestros servicios</h2>
-
+      <h2 className="font-bold text-4xl mb-6 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Conocé nuestros servicios</h2>
+      <p className="mb-6">Ya sea para emergencias o traslados planificados, ofrecemos un servicio confiable, ágil y seguro, adaptado a tus necesidades.</p>
       <motion.div
         initial="initial"
         whileInView="whileInView"

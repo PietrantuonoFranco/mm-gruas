@@ -37,8 +37,8 @@ function Formulario() {
       if (await isInformation()) {
         const message: string = `Hola mi nombre es ${name} ${surname}, ${
           selectedSubject === "otro" ? `.` : `necesito ${selectedSubject}.`
-        }
-  Mi mensaje de consulta es: ${body}`;
+        } Te quería hacer la siguiente consulta: 
+        ${body}`;
   
         const phoneNumber: string = "+5492244462235";
   

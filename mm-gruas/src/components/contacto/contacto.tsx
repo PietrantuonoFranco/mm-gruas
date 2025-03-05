@@ -42,7 +42,7 @@ export default function Contacto() {
           className="text-black space-y-4 md:text-left text-center"
         >
           <div className="space-y-2">
-            <h2 className="font-bold text-4xl">Información de contacto</h2>
+            <h2 className="font-bold text-4xl [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Información de contacto</h2>
 
             <p className="">En MM Grúas estamos disponibles para atenderte en cualquier momento del día. Nuestro servicio de grúas cubre Las Flores y alrededores, ofreciendo una respuesta rápida y eficiente para emergencia o traslados programados.</p>
 
@@ -68,8 +68,8 @@ export default function Contacto() {
               </li>
           
               <li>
-                <h4 className="text-lg mb-1 flex items-center justify-center gap-x-2">
-                  <FontAwesomeIcon icon={faClock} className="inline text-md md:text-"/>Horario de atención (en la sede)
+                <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2">
+                  <FontAwesomeIcon icon={faClock} className="inline text-md"/>Horario de atención (en la sede)
                 </h4>
                 <p className="text-gray-500 py-1">9:00 a 17:00hs</p>
               </li>
@@ -97,13 +97,13 @@ export default function Contacto() {
         </motion.div>
       </div>
 
-      <h2 className="mt-12 mb-8 font-bold text-4xl text-center">Envianos tu consulta</h2>
+      <h2 className="mt-12 mb-8 font-bold text-4xl text-center [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Envianos tu consulta</h2>
       <motion.div
         variants={fadeInUp}
         initial="initial"
         whileInView="whileInView"
         viewport={{ once: true, amount: 0.2 }} 
-        className='mb-12 p-8 md:py-10 md:px-14 rounded-3xl  shadow-lg bg-gray-50'
+        className='mb-4 p-8 md:py-10 md:px-14 rounded-3xl  shadow-lg bg-gray-50'
       >
         <Formulario />
       </motion.div>
