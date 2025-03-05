@@ -43,7 +43,7 @@ export default function Galeria() {
             loaderProps: {
               style:'circle'
             },
-            aspectRatio: '22:9',
+            aspectRatio: '20:9',
             carouselLocation: 'bottom',
             bgColor: "transparent",
             thumbnailProps: {
