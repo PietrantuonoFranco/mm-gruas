@@ -26,15 +26,7 @@ export default function Galeria() {
         <CloudinaryGallery
           galleryConfig={{
             mediaAssets: [
-              { publicId: 'mm-gruas-1' },
-              { publicId: 'mm-gruas-2' },
-              { publicId: 'mm-gruas-3' },
-              { publicId: 'mm-gruas-4' },
-              { publicId: 'mm-gruas-5' },
-              { publicId: 'mm-gruas-6' },
-              { publicId: 'mm-gruas-7' },
-              { publicId: 'mm-gruas-8' },
-              { publicId: 'mm-gruas-9' }
+              { tag: 'mmgruas' }
             ],
             displayProps: {
               spacing: 15

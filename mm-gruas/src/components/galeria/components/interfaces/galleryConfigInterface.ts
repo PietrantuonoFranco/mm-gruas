@@ -1,5 +1,6 @@
 interface MediaAsset {
-    publicId: string; // ID público de la imagen en Cloudinary
+    publicId?: string; // ID público de la imagen en Cloudinary
+    tag?: string;
 }
   
 interface DisplayProps {
