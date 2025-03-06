@@ -54,7 +54,7 @@ export default function Contacto() {
           <div className="space-y-3">
             <ul className="list-none p-0 space-y-4 text-center md:text-left">
               <li>
-                <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faLocationDot} className="inline text-md"/>Ubicación</h4>
+                <h3 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faLocationDot} className="inline text-md"/>Ubicación</h3>
                   <a
                     href="https://www.google.com/maps?q=-36.011277, -59.111919"
                     target="_blank"
@@ -66,15 +66,15 @@ export default function Contacto() {
               </li>
           
               <li>
-                <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2">
+                <h3 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2">
                   <FontAwesomeIcon icon={faClock} className="inline text-md"/>Horario de atención (en la sede)
-                </h4>
+                </h3>
                 <p className="text-gray-500 py-1">9:00 a 17:00hs</p>
               </li>
 
               <li>
                 <div>
-                  <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faPhone} className="inline text-sm"/>Teléfono</h4>
+                  <h3 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faPhone} className="inline text-sm"/>Teléfono</h3>
                     <a
                       href="tel:+5492244462235"
                       className="text-[#483EBB] hover:text-[#362D95] hover:text-shadow-md py-1 font-medium"

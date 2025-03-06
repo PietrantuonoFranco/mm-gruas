@@ -124,6 +124,7 @@ export default function Footer() {
         <div className="px-4 space-x-4">
           <a
             href="https://www.linkedin.com/in/franco-pietrantuono-a43a8a345/"
+            aria-label="Ir al Linkedin del autor de la página."
             className="inline text-gray-300 hover:text-gray-400"
             target="_blank"
             rel="noopener noreferrer"
@@ -132,6 +133,7 @@ export default function Footer() {
           </a>
           <a
             href="https://github.com/PietrantuonoFranco"
+            aria-label="Ir al GitHub del autor de la página."
             className="inline text-gray-300 hover:text-gray-400"
             target="_blank"
             rel="noopener noreferrer"
@@ -140,6 +142,7 @@ export default function Footer() {
           </a>
           <a
             href="mailto:francopietrantuono999@gmail.com"
+            aria-label="Enviar un mail al autor de la página."
             className="inline text-gray-300 hover:text-gray-400"
             target="_blank"
             rel="noopener noreferrer"
