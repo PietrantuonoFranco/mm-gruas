@@ -136,6 +136,7 @@ function Formulario() {
         </div>
 
         <button
+          aria-label="Enviar formulario de consulta"
           type="submit"
           disabled={creatingMessage}
           className="flex justify-center items-center gap-x-2 px-6 py-3 bg-gray-900 text-white rounded-3xl hover:shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 cursor-pointer"

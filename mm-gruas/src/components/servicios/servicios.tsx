@@ -16,8 +16,10 @@ export default function Servicios() {
 
   return (
     <section id="servicios" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[100px] text-center text-black">
-      <h4 className="font-bold text-[#FFCA3A] text-shadow-xl">Nuestros servicios</h4>
+      <p className="font-bold text-[#F4AF00] text-shadow-xl">Nuestros servicios</p>
+
       <h2 className="font-bold text-4xl mb-6 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Conocé nuestros servicios</h2>
+      
       <p className="mb-6">Ya sea para emergencias o traslados planificados, ofrecemos un servicio confiable, ágil y seguro, adaptado a tus necesidades.</p>
       <motion.div
         initial="initial"
@@ -37,7 +39,7 @@ export default function Servicios() {
         <Servicio title="Máquinas Agrícolas" service="Grúas y remolques"/>
       </motion.div>
 
-      <p className="text-gray-500 text-lg">Todos nuestros servicios llegan a todo el país, tanto en casos de imprevistos como para los traslados programados a las 24hs del dia.</p>
+      <p className="text-gray-600 text-lg">Todos nuestros servicios llegan a todo el país, tanto en casos de imprevistos como para los traslados programados a las 24hs del dia.</p>
     </section>
   );
 }

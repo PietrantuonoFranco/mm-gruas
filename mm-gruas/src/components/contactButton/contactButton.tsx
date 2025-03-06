@@ -24,6 +24,7 @@ const ContactButton: React.FC<ContactButtonProps> = ({ type, justify }) => {
   return (
     <>
       <button
+        aria-label={ type === "Llamar" ? "Llamar" : "Enviar un WhatsApp" }
         onClick={() => {type === "Llamar" ? handleClickLlamar('+5492244462235') : handleClickWhatsApp("5492244462235")}}
         className={`flex gap-x-2 p-3 w-[70%] lg:w-[45%] rounded-3xl justify-center items-center shadow-md hover:shadow-lg ${
           type === "Llamar" ? "bg-[#F4AF00]" : "bg-green-500" } ${ justify } cursor-pointer transition-transform transform hover:scale-110`}

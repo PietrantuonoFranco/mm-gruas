@@ -41,8 +41,8 @@ const Servicio: React.FC<Parameters> = ({ title, service }) => {
       </div>
 
       <div className="flex flex-col justify-center items-center text-center">
-        <h5 className="font-bold text-xl mb-3">{title}</h5>
-        <h6 className="text-gray-900">{service}</h6>
+        <h3 className="font-bold text-xl mb-3">{title}</h3>
+        <h4 className="text-gray-900">{service}</h4>
       </div>
     </motion.div>
   );

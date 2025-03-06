@@ -15,7 +15,7 @@ export default function Contacto() {
 
   return (
     <section id="contacto" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[75px] text-black">
-      <h4 className="font-bold text-[#FFCA3A] text-shadow-xl text-center mb-4">Contacto</h4>
+      <p className="font-bold text-[#F4AF00] text-shadow-xl text-center mb-4">Contacto</p>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-8">
       <motion.div  
@@ -26,6 +26,7 @@ export default function Contacto() {
         >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d12909.680473705863!2d-59.112888!3d-36.010033!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDAwJzQwLjYiUyA1OcKwMDYnNDIuOSJX!5e0!3m2!1ses-419!2sar!4v1740777228160!5m2!1ses-419!2sar"
+            title="Mapa mostrando la ubicación de nuestro lugar de atención."
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -58,7 +59,7 @@ export default function Contacto() {
                     href="https://www.google.com/maps?q=-36.011277, -59.111919"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md text-center py-1 font-medium mb-2"
+                    className="text-[#483EBB] hover:text-[#362D95] hover:text-shadow-md text-center py-1 font-medium mb-2"
                   >
                     Moreno esq. R. Vera, Las Flores, Pcia. de Buenos Aires
                   </a>
@@ -76,7 +77,7 @@ export default function Contacto() {
                   <h4 className="text-lg mb-1 flex items-center md:justify-start justify-center gap-x-2"><FontAwesomeIcon icon={faPhone} className="inline text-sm"/>Teléfono</h4>
                     <a
                       href="tel:+5492244462235"
-                      className="text-[#5246DC] hover:text-[#453BB2] hover:text-shadow-md py-1 font-medium"
+                      className="text-[#483EBB] hover:text-[#362D95] hover:text-shadow-md py-1 font-medium"
                     >
                       +54 9 2244 46-2235
                     </a>

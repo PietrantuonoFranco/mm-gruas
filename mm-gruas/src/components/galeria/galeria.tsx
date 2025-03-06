@@ -12,8 +12,10 @@ export default function Galeria() {
 
   return (
     <section id="galeria" className="w-full mb-16 px-10 lg:px-52 text-black space-y-2 text-center scroll-mt-[80px]">
-      <h4 className="font-bold text-[#FFCA3A] text-shadow-xl">Galería</h4>
+      <p className="font-bold text-[#F4AF00] text-shadow-xl">Galería</p>
+
       <h2 className="font-bold text-4xl mb-6 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Trabajos realizados</h2>
+
       <p className="mb-6 px-0 lg:px-2">Explora nuestra galería y conoce el trabajo que realizamos. Cada imagen muestra la seguridad y profesionalismo con los que transportamos vehículos, asegurando un servicio eficiente y confiable en cada traslado.</p>
 
       <motion.div
