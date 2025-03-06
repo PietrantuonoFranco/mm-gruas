@@ -13,11 +13,10 @@ createRoot(document.getElementById('root')!).render(
     <Header />
     <Router>
       <Routes>
+        <Route path="/" element={<App />} />
 
         {/* Ruta comodín para la página 404 */}
         <Route path="*" element={<NotFoundPage />} />
-
-        <Route path="/" element={<App />} />
       </Routes>
     </Router>
     <WhatsApp />
