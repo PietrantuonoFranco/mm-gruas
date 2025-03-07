@@ -45,9 +45,13 @@ export default function Servicios() {
           initial="initial"
           whileInView="whileInView"
           viewport={{ once: true, amount: 0.1 }} // Solo se anima una vez y cuando el 20% del elemento es visible
-          className="text-black space-y-2 md:text-left text-center"
+          className="text-black space-y-3 md:text-left text-center"
         >
-          <p className="font-bold text-[#F4AF00] text-shadow-xl">Sobre nosotros</p>
+         
+          <p className="inline-block flex font-semibold text-[#F4AF00] py-1 px-4 bg-[#222] rounded-3xl shadow-md">
+            <span className="pr-2 font-bold">•</span>Sobre nosotros<span className="pl-2 font-bold">•</span>
+          </p>
+          
           <h2 className="font-bold text-4xl [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Grúas en Las Flores y todo el país: Con más de 35 años de experiencia en el rubro</h2>
           <p>En MM Grúas, somos especialistas en brindar soluciones confiables y eficientes para el transporte y remolque de vehículos. Con años de experiencia en el sector, nos hemos consolidado como un aliado clave para conductores y empresas que necesitan servicios de grúa rápidos, seguros y profesionales.</p>
           <p>Ya sea que necesite asistencia en carretera, traslado de un vehículo por mantenimiento o apoyo para operaciones logísticas, en MM Grúas estamos aquí para ayudar. Nuestro objetivo es brindarle tranquilidad y confianza, sabiendo que su vehículo está en las mejores manos.</p>

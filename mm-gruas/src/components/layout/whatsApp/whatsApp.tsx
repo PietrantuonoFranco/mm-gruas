@@ -13,6 +13,7 @@ export default function WhatsApp () {
 
   return (
     <div
+      aria-label="Enviar un WhatsApp"
       onClick={handleClick}
       className="z-100 fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 w-16 h-16 flex items-center justify-center rounded-full shadow-lg cursor-pointer transition-transform transform hover:scale-110"
     >

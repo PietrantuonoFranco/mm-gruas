@@ -14,8 +14,10 @@ export default function Contacto() {
   };
 
   return (
-    <section id="contacto" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[75px] text-black">
-      <p className="font-bold text-[#F4AF00] text-shadow-xl text-center mb-4">Contacto</p>
+    <section id="contacto" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[85px] text-black text-center space-y-3">
+      <p className="inline-block flex font-semibold text-[#F4AF00] py-1 px-4 bg-[#222] rounded-3xl shadow-md">
+        <span className="pr-2 font-bold">•</span>Contacto<span className="pl-2 font-bold">•</span>
+      </p>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-8">
       <motion.div  

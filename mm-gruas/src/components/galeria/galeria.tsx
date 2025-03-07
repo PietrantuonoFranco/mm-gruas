@@ -12,7 +12,9 @@ export default function Galeria() {
 
   return (
     <section id="galeria" className="w-full mb-16 px-10 lg:px-52 text-black space-y-2 text-center scroll-mt-[80px]">
-      <p className="font-bold text-[#F4AF00] text-shadow-xl">Galería</p>
+      <p className="inline-block flex font-semibold text-[#F4AF00] py-1 px-4 bg-[#222] rounded-3xl shadow-md">
+        <span className="pr-2 font-bold">•</span>Galería<span className="pl-2 font-bold">•</span>
+      </p>
 
       <h2 className="font-bold text-4xl mb-6 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Trabajos realizados</h2>
 

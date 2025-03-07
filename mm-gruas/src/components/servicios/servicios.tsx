@@ -15,12 +15,14 @@ export default function Servicios() {
   };
 
   return (
-    <section id="servicios" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[100px] text-center text-black">
-      <p className="font-bold text-[#F4AF00] text-shadow-xl">Nuestros servicios</p>
+    <section id="servicios" className="w-full gap-y-6 px-10 lg:px-56 scroll-mt-[100px] text-center text-black space-y-3">
+      <p className="inline-block flex font-semibold text-[#F4AF00] py-1 px-4 bg-[#222] rounded-3xl shadow-md">
+        <span className="pr-2 font-bold">•</span>Nuestros servicios<span className="pl-2 font-bold">•</span>
+      </p>
 
-      <h2 className="font-bold text-4xl mb-6 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Conocé nuestros servicios</h2>
+      <h2 className="font-bold text-4xl mb-3 [text-shadow:0px_1px_2px_rgba(0,0,0,1)]">Conocé nuestros servicios</h2>
       
-      <p className="mb-6">Ya sea para emergencias o traslados planificados, ofrecemos un servicio confiable, ágil y seguro, adaptado a tus necesidades.</p>
+      <p className="mb-3">Ya sea para emergencias o traslados planificados, ofrecemos un servicio confiable, ágil y seguro, adaptado a tus necesidades.</p>
       <motion.div
         initial="initial"
         whileInView="whileInView"
