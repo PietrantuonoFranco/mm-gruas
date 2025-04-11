@@ -14,10 +14,10 @@ export default function Header() {
   };
 
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string): void => {
-    e.preventDefault(); // Evita el comportamiento predeterminado del enlace
-    const element = document.getElementById(id); // Obtiene el elemento por su ID
+    e.preventDefault();
+    const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -26,7 +26,7 @@ export default function Header() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsOpen(false); // Cierra el menú después de hacer clic
+    setIsOpen(false);
   };
 
   return (
@@ -108,7 +108,7 @@ export default function Header() {
               animate="show"
               exit="hidden"
             >
-              <div className="px-2 pt-2 pb-6 space-y-2 sm:px-3 bg-white shadow-lg text-center text-black">
+              <div className="absolute top-17 w-full px-2 pt-2 pb-6 space-y-2 sm:px-3 bg-white shadow-lg text-center text-black">
                 <a
                   href="#nosotros"
                   className="hover:text-gray-700 hover:font-bold block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"

@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from "framer-motion";
-import grua from "./assets/img-example.webp";
 import RazonElegirServicio from "./components/razonElegirServicio";
 
 export default function Servicios() {
@@ -33,7 +32,7 @@ export default function Servicios() {
           viewport={{ once: true, amount: 0.2 }} // Solo se anima una vez y cuando el 20% del elemento es visible
         >
           <img
-            src={grua}
+            src="https://res.cloudinary.com/dfffkbxhs/image/upload/v1741064633/mm-gruas-7.jpg"
             alt="Imagen de una de nuestras grúas."
             className="h-full object-cover shadow-md sm:block hidden"
           />
